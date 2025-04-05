@@ -1,9 +1,15 @@
-import React from 'react'
+import React from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import MainPage from "./pages/MainPage";
 
 const App = () => {
   return (
-    <div className='text-3xl'>App</div>
-  )
-}
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<MainPage/>} />
+      </Routes>
+    </BrowserRouter>
+  );
+};
 
-export default App
+export default App;

@@ -1,0 +1,602 @@
+[
+  {
+    "id": 1,
+    "name": "Popcorn",
+    "description": "Delicious popcorn perfect for your daily meals.",
+    "price": 5.16,
+    "unit": "each",
+    "image": "../assets/products/popcorn.jpg",
+    "category": "snacks",
+    "stock": 44
+  },
+  {
+    "id": 2,
+    "name": "Salmoninpack",
+    "description": "Delicious salmoninpack perfect for your daily meals.",
+    "price": 12.94,
+    "unit": "pack",
+    "image": "/assets/products/salmoninpack.jpg",
+    "category": "seafood",
+    "stock": 11
+  },
+  {
+    "id": 3,
+    "name": "Mushroom",
+    "description": "Delicious mushroom perfect for your daily meals.",
+    "price": 13.43,
+    "unit": "500g",
+    "image": "/assets/products/mushroom.jpg",
+    "category": "vegetables",
+    "stock": 15
+  },
+  {
+    "id": 4,
+    "name": "Sweetpotatos",
+    "description": "Delicious sweetpotatos perfect for your daily meals.",
+    "price": 15.14,
+    "unit": "6pcs",
+    "image": "/assets/products/sweetpotatos.jpg",
+    "category": "vegetables",
+    "stock": 19
+  },
+  {
+    "id": 5,
+    "name": "Spring onion",
+    "description": "Delicious spring onion perfect for your daily meals.",
+    "price": 2.52,
+    "unit": "6pcs",
+    "image": "/assets/products/springonion.jpg",
+    "category": "vegetables",
+    "stock": 30
+  },
+  {
+    "id": 6,
+    "name": "Beefstirfry",
+    "description": "Delicious beefstirfry perfect for your daily meals.",
+    "price": 4.79,
+    "unit": "1kg",
+    "image": "/assets/products/beefstirfry.jpg",
+    "category": "meat",
+    "stock": 17
+  },
+  {
+    "id": 7,
+    "name": "Cauliflower",
+    "description": "Delicious cauliflower perfect for your daily meals.",
+    "price": 13.44,
+    "unit": "1kg",
+    "image": "/assets/products/cauliflower.jpg",
+    "category": "vegetables",
+    "stock": 1
+  },
+  {
+    "id": 8,
+    "name": "Blackgrape",
+    "description": "Delicious blackgrape perfect for your daily meals.",
+    "price": 5.94,
+    "unit": "pack",
+    "image": "/assets/products/blackgrape.jpg",
+    "category": "fruits",
+    "stock": 1
+  },
+  {
+    "id": 9,
+    "name": "Greengrape",
+    "description": "Delicious greengrape perfect for your daily meals.",
+    "price": 6.94,
+    "unit": "500g",
+    "image": "/assets/products/greengrape.jpg",
+    "category": "fruits",
+    "stock": 20
+  },
+  {
+    "id": 10,
+    "name": "Salmon",
+    "description": "Delicious salmon perfect for your daily meals.",
+    "price": 10.43,
+    "unit": "500g",
+    "image": "/assets/products/salmon.jpg",
+    "category": "seafood",
+    "stock": 0
+  },
+  {
+    "id": 11,
+    "name": "Chickenthighcutlets",
+    "description": "Delicious chickenthighcutlets perfect for your daily meals.",
+    "price": 9.65,
+    "unit": "pack",
+    "image": "/assets/products/chickenthighcutlets.jpg",
+    "category": "meat",
+    "stock": 22
+  },
+  {
+    "id": 12,
+    "name": "Doritosnachocheesechips",
+    "description": "Delicious doritosnachocheesechips perfect for your daily meals.",
+    "price": 4.79,
+    "unit": "2L",
+    "image": "/assets/products/doritosnachocheesechips.jpg",
+    "category": "snacks",
+    "stock": 40
+  },
+  {
+    "id": 13,
+    "name": "Vineripenedtomatoes",
+    "description": "Delicious vineripenedtomatoes perfect for your daily meals.",
+    "price": 14.61,
+    "unit": "1kg",
+    "image": "/assets/products/vineripenedtomatoes.jpg",
+    "category": "vegetables",
+    "stock": 1
+  },
+  {
+    "id": 14,
+    "name": "Corn",
+    "description": "Delicious corn perfect for your daily meals.",
+    "price": 12.88,
+    "unit": "2L",
+    "image": "/assets/products/corn.jpg",
+    "category": "vegetables",
+    "stock": 33
+  },
+  {
+    "id": 15,
+    "name": "Kinderchocolate",
+    "description": "Delicious kinderchocolate perfect for your daily meals.",
+    "price": 5.63,
+    "unit": "pack",
+    "image": "/assets/products/kinderchocolate.jpg",
+    "category": "snacks",
+    "stock": 47
+  },
+  {
+    "id": 16,
+    "name": "Yogurt",
+    "description": "Delicious yogurt perfect for your daily meals.",
+    "price": 4.19,
+    "unit": "each",
+    "image": "/assets/products/yogurt.jpg",
+    "category": "dairy",
+    "stock": 19
+  },
+  {
+    "id": 17,
+    "name": "Blueberry",
+    "description": "Delicious blueberry perfect for your daily meals.",
+    "price": 12.31,
+    "unit": "500g",
+    "image": "/assets/products/blueberry.jpg",
+    "category": "fruits",
+    "stock": 34
+  },
+  {
+    "id": 18,
+    "name": "Shrimp",
+    "description": "Delicious shrimp perfect for your daily meals.",
+    "price": 10.54,
+    "unit": "500g",
+    "image": "/assets/products/shrimp.jpg",
+    "category": "seafood",
+    "stock": 21
+  },
+  {
+    "id": 19,
+    "name": "Doritosoriginalsaltedchips",
+    "description": "Delicious doritosoriginalsaltedchips perfect for your daily meals.",
+    "price": 9.88,
+    "unit": "6pcs",
+    "image": "/assets/products/doritosoriginalsaltedchips.jpg",
+    "category": "snacks",
+    "stock": 43
+  },
+  {
+    "id": 21,
+    "name": "Onion",
+    "description": "Delicious onion perfect for your daily meals.",
+    "price": 8.15,
+    "unit": "2L",
+    "image": "/assets/products/onion.jpg",
+    "category": "vegetables",
+    "stock": 48
+  },
+  {
+    "id": 22,
+    "name": "Butter",
+    "description": "Delicious butter perfect for your daily meals.",
+    "price": 13.19,
+    "unit": "500g",
+    "image": "/assets/products/butter.jpg",
+    "category": "dairy",
+    "stock": 25
+  },
+  {
+    "id": 23,
+    "name": "Grape",
+    "description": "Delicious grape perfect for your daily meals.",
+    "price": 9.11,
+    "unit": "1kg",
+    "image": "/assets/products/grape.jpg",
+    "category": "fruits",
+    "stock": 31
+  },
+  {
+    "id": 24,
+    "name": "Mince",
+    "description": "Delicious mince perfect for your daily meals.",
+    "price": 3.39,
+    "unit": "pack",
+    "image": "/assets/products/mince.jpg",
+    "category": "meat",
+    "stock": 41
+  },
+  {
+    "id": 25,
+    "name": "Redrocksweetchilliandsourcreamchips",
+    "description": "Delicious redrocksweetchilliandsourcreamchips perfect for your daily meals.",
+    "price": 8.32,
+    "unit": "500g",
+    "image": "/assets/products/redrocksweetchilli&sourcreamchips.jpg",
+    "category": "snacks",
+    "stock": 34
+  },
+  {
+    "id": 26,
+    "name": "Watermelon",
+    "description": "Delicious watermelon perfect for your daily meals.",
+    "price": 11.29,
+    "unit": "each",
+    "image": "/assets/products/watermelon.jpg",
+    "category": "fruits",
+    "stock": 23
+  },
+  {
+    "id": 27,
+    "name": "Redrockcrispychickenwithgarlicchips",
+    "description": "Delicious redrockcrispychickenwithgarlicchips perfect for your daily meals.",
+    "price": 6.18,
+    "unit": "6pcs",
+    "image": "/assets/products/redrockcrispychickenwithgarlicchips.jpg",
+    "category": "snacks",
+    "stock": 44
+  },
+  {
+    "id": 28,
+    "name": "Orange",
+    "description": "Delicious orange perfect for your daily meals.",
+    "price": 3.75,
+    "unit": "2L",
+    "image": "/assets/products/orange.jpg",
+    "category": "fruits",
+    "stock": 50
+  },
+  {
+    "id": 29,
+    "name": "Cremeeggchocolate",
+    "description": "Delicious cremeeggchocolate perfect for your daily meals.",
+    "price": 9.13,
+    "unit": "pack",
+    "image": "/assets/products/cremeeggchocolate.jpg",
+    "category": "snacks",
+    "stock": 2
+  },
+  {
+    "id": 30,
+    "name": "Redberry",
+    "description": "Delicious redberry perfect for your daily meals.",
+    "price": 12.41,
+    "unit": "each",
+    "image": "/assets/products/redberry.jpg",
+    "category": "fruits",
+    "stock": 1
+  },
+  {
+    "id": 31,
+    "name": "Apple",
+    "description": "Delicious apple perfect for your daily meals.",
+    "price": 14.06,
+    "unit": "500g",
+    "image": "/assets/products/apple.jpg",
+    "category": "fruits",
+    "stock": 29
+  },
+  {
+    "id": 32,
+    "name": "Rowshrimp",
+    "description": "Delicious rowshrimp perfect for your daily meals.",
+    "price": 3.47,
+    "unit": "6pcs",
+    "image": "/assets/products/rowshrimp.jpg",
+    "category": "seafood",
+    "stock": 3
+  },
+  {
+    "id": 33,
+    "name": "Pringlescaribbeanspicedchickenchips",
+    "description": "Delicious pringlescaribbeanspicedchickenchips perfect for your daily meals.",
+    "price": 14.26,
+    "unit": "1kg",
+    "image": "/assets/products/pringlescaribbeanspicedchickenchips.jpg",
+    "category": "snacks",
+    "stock": 23
+  },
+  {
+    "id": 34,
+    "name": "Caramilkchocolate",
+    "description": "Delicious caramilkchocolate perfect for your daily meals.",
+    "price": 5.22,
+    "unit": "pack",
+    "image": "/assets/products/caramilkchocolate.jpg",
+    "category": "snacks",
+    "stock": 28
+  },
+  {
+    "id": 35,
+    "name": "Pringlessourcreamandonionchips",
+    "description": "Delicious pringlessourcreamandonionchips perfect for your daily meals.",
+    "price": 10.72,
+    "unit": "2L",
+    "image": "/assets/products/pringlessourcream&onionchips.jpg",
+    "category": "snacks",
+    "stock": 20
+  },
+  {
+    "id": 36,
+    "name": "Bunnychocolate",
+    "description": "Delicious bunnychocolate perfect for your daily meals.",
+    "price": 9.1,
+    "unit": "1kg",
+    "image": "/assets/products/bunnychocolate.jpg",
+    "category": "snacks",
+    "stock": 25
+  },
+  {
+    "id": 37,
+    "name": "Cheese",
+    "description": "Delicious cheese perfect for your daily meals.",
+    "price": 5.48,
+    "unit": "500g",
+    "image": "/assets/products/cheese.jpg",
+    "category": "dairy",
+    "stock": 24
+  },
+  {
+    "id": 38,
+    "name": "Orangejuice",
+    "description": "Delicious orangejuice perfect for your daily meals.",
+    "price": 8.24,
+    "unit": "500g",
+    "image": "/assets/products/orangejuice.jpg",
+    "category": "drinks",
+    "stock": 13
+  },
+  {
+    "id": 39,
+    "name": "Pear",
+    "description": "Delicious pear perfect for your daily meals.",
+    "price": 7.13,
+    "unit": "1kg",
+    "image": "/assets/products/pear.jpg",
+    "category": "fruits",
+    "stock": 37
+  },
+  {
+    "id": 40,
+    "name": "Yakult",
+    "description": "Delicious yakult perfect for your daily meals.",
+    "price": 9.44,
+    "unit": "each",
+    "image": "/assets/products/yakult.jpg",
+    "category": "drinks",
+    "stock": 35
+  },
+  {
+    "id": 41,
+    "name": "Smithsbarbecuechips",
+    "description": "Delicious smithsbarbecuechips perfect for your daily meals.",
+    "price": 2.57,
+    "unit": "6pcs",
+    "image": "/assets/products/smithsbarbecuechips.jpg",
+    "category": "snacks",
+    "stock": 5
+  },
+  {
+    "id": 42,
+    "name": "Redrockhoneysoychickenchips",
+    "description": "Delicious redrockhoneysoychickenchips perfect for your daily meals.",
+    "price": 2.84,
+    "unit": "each",
+    "image": "/assets/products/redrockhoneysoychickenchips.jpg",
+    "category": "snacks",
+    "stock": 32
+  },
+  {
+    "id": 43,
+    "name": "Broccolini",
+    "description": "Delicious broccolini perfect for your daily meals.",
+    "price": 3.52,
+    "unit": "500g",
+    "image": "/assets/products/broccolini.jpg",
+    "category": "vegetables",
+    "stock": 41
+  },
+  {
+    "id": 44,
+    "name": "Plum",
+    "description": "Delicious plum perfect for your daily meals.",
+    "price": 8.89,
+    "unit": "each",
+    "image": "/assets/products/plum.jpg",
+    "category": "fruits",
+    "stock": 11
+  },
+  {
+    "id": 45,
+    "name": "Cucumber",
+    "description": "Delicious cucumber perfect for your daily meals.",
+    "price": 6.0,
+    "unit": "2L",
+    "image": "/assets/products/cucumber.jpg",
+    "category": "vegetables",
+    "stock": 24
+  },
+  {
+    "id": 46,
+    "name": "Shortribfingers",
+    "description": "Delicious shortribfingers perfect for your daily meals.",
+    "price": 7.43,
+    "unit": "500g",
+    "image": "/assets/products/shortribfingers.jpg",
+    "category": "meat",
+    "stock": 10
+  },
+  {
+    "id": 47,
+    "name": "Banana",
+    "description": "Delicious banana perfect for your daily meals.",
+    "price": 2.17,
+    "unit": "pack",
+    "image": "/assets/products/banana.jpg",
+    "category": "fruits",
+    "stock": 0
+  },
+  {
+    "id": 48,
+    "name": "Lemon",
+    "description": "Delicious lemon perfect for your daily meals.",
+    "price": 5.94,
+    "unit": "1kg",
+    "image": "/assets/products/lemon.jpg",
+    "category": "fruits",
+    "stock": 37
+  },
+  {
+    "id": 49,
+    "name": "Redcapsicum",
+    "description": "Delicious redcapsicum perfect for your daily meals.",
+    "price": 8.31,
+    "unit": "2L",
+    "image": "/assets/products/redcapsicum.jpg",
+    "category": "vegetables",
+    "stock": 9
+  },
+  {
+    "id": 50,
+    "name": "Strawberry",
+    "description": "Delicious strawberry perfect for your daily meals.",
+    "price": 15.89,
+    "unit": "1kg",
+    "image": "/assets/products/strawberry.jpg",
+    "category": "fruits",
+    "stock": 5
+  },
+  {
+    "id": 51,
+    "name": "Babycoslettuce",
+    "description": "Delicious babycoslettuce perfect for your daily meals.",
+    "price": 11.17,
+    "unit": "each",
+    "image": "/assets/products/babycoslettuce.jpg",
+    "category": "vegetables",
+    "stock": 6
+  },
+  {
+    "id": 52,
+    "name": "Roinchops",
+    "description": "Delicious roinchops perfect for your daily meals.",
+    "price": 2.94,
+    "unit": "1kg",
+    "image": "/assets/products/roinchops.jpg",
+    "category": "meat",
+    "stock": 11
+  },
+  {
+    "id": 53,
+    "name": "Lettuce",
+    "description": "Delicious lettuce perfect for your daily meals.",
+    "price": 9.89,
+    "unit": "1kg",
+    "image": "/assets/products/lettuce.jpg",
+    "category": "vegetables",
+    "stock": 0
+  },
+  {
+    "id": 54,
+    "name": "Brownonion",
+    "description": "Delicious brownonion perfect for your daily meals.",
+    "price": 8.43,
+    "unit": "6pcs",
+    "image": "/assets/products/brownonion.jpg",
+    "category": "vegetables",
+    "stock": 34
+  },
+  {
+    "id": 55,
+    "name": "Egg",
+    "description": "Delicious egg perfect for your daily meals.",
+    "price": 6.59,
+    "unit": "pack",
+    "image": "/assets/products/egg.jpg",
+    "category": "dairy",
+    "stock": 40
+  },
+  {
+    "id": 56,
+    "name": "Whitepotatos",
+    "description": "Delicious whitepotatos perfect for your daily meals.",
+    "price": 4.14,
+    "unit": "2L",
+    "image": "/assets/products/whitepotatos.jpg",
+    "category": "vegetables",
+    "stock": 22
+  },
+  {
+    "id": 57,
+    "name": "Smithsoriginalchips",
+    "description": "Delicious smithsoriginalchips perfect for your daily meals.",
+    "price": 2.36,
+    "unit": "pack",
+    "image": "/assets/products/smithsoriginalchips.jpg",
+    "category": "snacks",
+    "stock": 31
+  },
+  {
+    "id": 58,
+    "name": "Beefrumpsteak",
+    "description": "Delicious beefrumpsteak perfect for your daily meals.",
+    "price": 14.23,
+    "unit": "1kg",
+    "image": "/assets/products/beefrumpsteak.jpg",
+    "category": "meat",
+    "stock": 40
+  },
+  {
+    "id": 59,
+    "name": "Pumpkin",
+    "description": "Delicious pumpkin perfect for your daily meals.",
+    "price": 4.39,
+    "unit": "pack",
+    "image": "/assets/products/pumpkin.jpg",
+    "category": "vegetables",
+    "stock": 19
+  },
+  {
+    "id": 60,
+    "name": "Carrots",
+    "description": "Delicious carrots perfect for your daily meals.",
+    "price": 4.8,
+    "unit": "pack",
+    "image": "/assets/products/carrots.jpg",
+    "category": "vegetables",
+    "stock": 41
+  },
+  {
+    "id": 61,
+    "name": "Freerangechicken",
+    "description": "Delicious freerangechicken perfect for your daily meals.",
+    "price": 3.89,
+    "unit": "2L",
+    "image": "/assets/products/freerangechicken.jpg",
+    "category": "meat",
+    "stock": 12
+  }
+]
