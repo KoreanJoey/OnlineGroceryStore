@@ -1,6 +1,5 @@
 import React from "react";
 import { FaSearch } from "react-icons/fa";
-import { AiFillCaretDown } from "react-icons/ai";
 import DropdownMenu from "./DropdwonMenu";
 import { assets } from "../assets/assets"
 
