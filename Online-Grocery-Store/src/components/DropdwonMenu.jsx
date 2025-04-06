@@ -8,6 +8,7 @@ const DropdownMenu = ({ label, items }) => {
 
   const handleClick = (item) => {
     navigate(`/category/${item.toLowerCase()}`)
+    setIsOpen(false);
   }
 
   return (
