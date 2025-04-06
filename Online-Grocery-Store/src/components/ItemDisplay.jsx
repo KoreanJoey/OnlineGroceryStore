@@ -11,7 +11,7 @@ const ItemDisplay = ({ product }) => {
       />
 
       {/* Name */}
-      <h2 className="text-lg font-semibold text-gray-800">{product.name}</h2>
+      <h2 className="text-lg font-semibold text-gray-800 truncate w-full text-center">{product.name}</h2>
 
       {/* Price */}
       <p className="text-[#ea6c36] font-bold text-md">${product.price.toFixed(2)}</p>
