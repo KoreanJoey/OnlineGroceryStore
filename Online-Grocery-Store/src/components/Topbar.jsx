@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { FaSearch } from "react-icons/fa";
+import { FaSearch, FaShoppingCart } from "react-icons/fa";
 import DropdownMenu from "./DropdwonMenu";
 import { assets } from "../assets/assets";
 import { useNavigate } from "react-router-dom";
@@ -43,17 +43,27 @@ const Topbar = () => {
         <DropdownMenu label="Chips & Chocolate" items={["Snacks"]} />
       </nav>
 
-      {/* Search */}
-      <div className="relative">
-        <input
-          type="text"
-          placeholder="Search products..."
-          className="pl-5 pr-4 py-2 rounded-full border border-gray-300 focus:outline-none focus:ring-2 focus:ring-gray-250"
-          value={input}
-          onChange={(e) => setInput(e.target.value)}
-          onKeyDown={handleSearch}
-        />
-        <FaSearch className="absolute right-5 top-3  w-4 h-4 text-gray-500" />
+      <div className="flex items-center space-x-4">
+        {/* Search */}
+        <div className="relative">
+          <input
+            type="text"
+            placeholder="Search products..."
+            className="pl-5 pr-4 py-2 rounded-full border border-gray-300 focus:outline-none focus:ring-2 focus:ring-gray-250"
+            value={input}
+            onChange={(e) => setInput(e.target.value)}
+            onKeyDown={handleSearch}
+          />
+          <FaSearch className="absolute right-5 top-3  w-4 h-4 text-gray-500" />
+        </div>
+
+        {/* Cart Icon */}
+        <div
+          className="relative cursor-pointer hover:opacity-80 transition"
+          onClick={() => navigate("/cart")}
+        >
+          <FaShoppingCart className="text-[#ea6c36] w-6 h-6" />
+        </div>
       </div>
     </header>
   );

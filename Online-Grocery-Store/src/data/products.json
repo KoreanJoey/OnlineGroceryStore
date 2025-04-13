@@ -11,7 +11,7 @@
   },
   {
     "id": 2,
-    "name": "Salmoninpack",
+    "name": "Salmon in pack",
     "description": "Delicious salmoninpack perfect for your daily meals.",
     "price": 12.94,
     "unit": "pack",
@@ -31,7 +31,7 @@
   },
   {
     "id": 4,
-    "name": "Sweetpotatos",
+    "name": "Sweet potatos",
     "description": "Delicious sweetpotatos perfect for your daily meals.",
     "price": 15.14,
     "unit": "6pcs",
@@ -51,7 +51,7 @@
   },
   {
     "id": 6,
-    "name": "Beefstirfry",
+    "name": "Beef stirfry",
     "description": "Delicious beefstirfry perfect for your daily meals.",
     "price": 4.79,
     "unit": "1kg",
@@ -71,7 +71,7 @@
   },
   {
     "id": 8,
-    "name": "Blackgrape",
+    "name": "Black grape",
     "description": "Delicious blackgrape perfect for your daily meals.",
     "price": 5.94,
     "unit": "pack",
@@ -81,7 +81,7 @@
   },
   {
     "id": 9,
-    "name": "Greengrape",
+    "name": "Green grape",
     "description": "Delicious greengrape perfect for your daily meals.",
     "price": 6.94,
     "unit": "500g",
@@ -101,7 +101,7 @@
   },
   {
     "id": 11,
-    "name": "Chickenthighcutlets",
+    "name": "Chicken thigh cutlets",
     "description": "Delicious chickenthighcutlets perfect for your daily meals.",
     "price": 9.65,
     "unit": "pack",
@@ -111,8 +111,8 @@
   },
   {
     "id": 12,
-    "name": "Doritosnachocheesechips",
-    "description": "Delicious doritosnachocheesechips perfect for your daily meals.",
+    "name": "Doritos nacho cheese chips",
+    "description": "Delicious doritos nacho cheese chips perfect for your daily meals.",
     "price": 4.79,
     "unit": "2L",
     "image": "/assets/products/doritosnachocheesechips.jpg",
@@ -121,8 +121,8 @@
   },
   {
     "id": 13,
-    "name": "Vineripenedtomatoes",
-    "description": "Delicious vineripenedtomatoes perfect for your daily meals.",
+    "name": "Vineripened tomatoes",
+    "description": "Delicious vineripened tomatoes perfect for your daily meals.",
     "price": 14.61,
     "unit": "1kg",
     "image": "/assets/products/vineripenedtomatoes.jpg",
@@ -141,7 +141,7 @@
   },
   {
     "id": 15,
-    "name": "Kinderchocolate",
+    "name": "Kinder chocolate",
     "description": "Delicious kinderchocolate perfect for your daily meals.",
     "price": 5.63,
     "unit": "pack",
@@ -181,7 +181,7 @@
   },
   {
     "id": 19,
-    "name": "Doritosoriginalsaltedchips",
+    "name": "Doritos original salted chips",
     "description": "Delicious doritosoriginalsaltedchips perfect for your daily meals.",
     "price": 9.88,
     "unit": "6pcs",
@@ -231,7 +231,7 @@
   },
   {
     "id": 25,
-    "name": "Redrocksweetchilliandsourcreamchips",
+    "name": "Red rock sweetc hilli and sour cream chips",
     "description": "Delicious redrocksweetchilliandsourcreamchips perfect for your daily meals.",
     "price": 8.32,
     "unit": "500g",
@@ -251,7 +251,7 @@
   },
   {
     "id": 27,
-    "name": "Redrockcrispychickenwithgarlicchips",
+    "name": "Red rock crispy chicken with garlic chips",
     "description": "Delicious redrockcrispychickenwithgarlicchips perfect for your daily meals.",
     "price": 6.18,
     "unit": "6pcs",
@@ -271,7 +271,7 @@
   },
   {
     "id": 29,
-    "name": "Cremeeggchocolate",
+    "name": "Cremeegg chocolate",
     "description": "Delicious cremeeggchocolate perfect for your daily meals.",
     "price": 9.13,
     "unit": "pack",
@@ -301,7 +301,7 @@
   },
   {
     "id": 32,
-    "name": "Rowshrimp",
+    "name": "Raw shrimp",
     "description": "Delicious rowshrimp perfect for your daily meals.",
     "price": 3.47,
     "unit": "6pcs",
@@ -311,7 +311,7 @@
   },
   {
     "id": 33,
-    "name": "Pringlescaribbeanspicedchickenchips",
+    "name": "Pringles caribbean spiced chickenc hips",
     "description": "Delicious pringlescaribbeanspicedchickenchips perfect for your daily meals.",
     "price": 14.26,
     "unit": "1kg",
@@ -321,7 +321,7 @@
   },
   {
     "id": 34,
-    "name": "Caramilkchocolate",
+    "name": "Caramilk chocolate",
     "description": "Delicious caramilkchocolate perfect for your daily meals.",
     "price": 5.22,
     "unit": "pack",
@@ -331,7 +331,7 @@
   },
   {
     "id": 35,
-    "name": "Pringlessourcreamandonionchips",
+    "name": "Pringles sour cream and onion chips",
     "description": "Delicious pringlessourcreamandonionchips perfect for your daily meals.",
     "price": 10.72,
     "unit": "2L",
@@ -341,7 +341,7 @@
   },
   {
     "id": 36,
-    "name": "Bunnychocolate",
+    "name": "Bunny chocolate",
     "description": "Delicious bunnychocolate perfect for your daily meals.",
     "price": 9.1,
     "unit": "1kg",
@@ -361,7 +361,7 @@
   },
   {
     "id": 38,
-    "name": "Orangejuice",
+    "name": "Orange juice",
     "description": "Delicious orangejuice perfect for your daily meals.",
     "price": 8.24,
     "unit": "500g",
@@ -391,7 +391,7 @@
   },
   {
     "id": 41,
-    "name": "Smithsbarbecuechips",
+    "name": "Smiths barbecuec hips",
     "description": "Delicious smithsbarbecuechips perfect for your daily meals.",
     "price": 2.57,
     "unit": "6pcs",
@@ -401,7 +401,7 @@
   },
   {
     "id": 42,
-    "name": "Redrockhoneysoychickenchips",
+    "name": "Red rock honey soy chicken chips",
     "description": "Delicious redrockhoneysoychickenchips perfect for your daily meals.",
     "price": 2.84,
     "unit": "each",
@@ -441,7 +441,7 @@
   },
   {
     "id": 46,
-    "name": "Shortribfingers",
+    "name": "Short rib fingers",
     "description": "Delicious shortribfingers perfect for your daily meals.",
     "price": 7.43,
     "unit": "500g",
@@ -471,7 +471,7 @@
   },
   {
     "id": 49,
-    "name": "Redcapsicum",
+    "name": "Red capsicum",
     "description": "Delicious redcapsicum perfect for your daily meals.",
     "price": 8.31,
     "unit": "2L",
@@ -491,7 +491,7 @@
   },
   {
     "id": 51,
-    "name": "Babycoslettuce",
+    "name": "Baby coslettuce",
     "description": "Delicious babycoslettuce perfect for your daily meals.",
     "price": 11.17,
     "unit": "each",
@@ -501,7 +501,7 @@
   },
   {
     "id": 52,
-    "name": "Roinchops",
+    "name": "Roin chops",
     "description": "Delicious roinchops perfect for your daily meals.",
     "price": 2.94,
     "unit": "1kg",
@@ -521,7 +521,7 @@
   },
   {
     "id": 54,
-    "name": "Brownonion",
+    "name": "Brown onion",
     "description": "Delicious brownonion perfect for your daily meals.",
     "price": 8.43,
     "unit": "6pcs",
@@ -541,7 +541,7 @@
   },
   {
     "id": 56,
-    "name": "Whitepotatos",
+    "name": "White potatos",
     "description": "Delicious whitepotatos perfect for your daily meals.",
     "price": 4.14,
     "unit": "2L",
@@ -551,7 +551,7 @@
   },
   {
     "id": 57,
-    "name": "Smithsoriginalchips",
+    "name": "Smiths original chips",
     "description": "Delicious smithsoriginalchips perfect for your daily meals.",
     "price": 2.36,
     "unit": "pack",
@@ -561,7 +561,7 @@
   },
   {
     "id": 58,
-    "name": "Beefrumpsteak",
+    "name": "Beef rump steak",
     "description": "Delicious beefrumpsteak perfect for your daily meals.",
     "price": 14.23,
     "unit": "1kg",
@@ -591,7 +591,7 @@
   },
   {
     "id": 61,
-    "name": "Freerangechicken",
+    "name": "Freerange chicken",
     "description": "Delicious freerangechicken perfect for your daily meals.",
     "price": 3.89,
     "unit": "2L",

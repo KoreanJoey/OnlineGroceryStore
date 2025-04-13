@@ -1,6 +1,9 @@
-import React from "react";
+import React, { useContext } from "react";
+import { CartContext } from "../context/CartContext";
 
 const ItemDisplay = ({ product }) => {
+  const { addToCart } = useContext(CartContext);
+
   return (
     <div className="bg-white rounded-2xl shadow-md p-4 w-64 flex flex-col items-center space-y-2 hover:shadow-lg transition">
       {/* Image */}
@@ -22,7 +25,10 @@ const ItemDisplay = ({ product }) => {
       </div>
 
       {/* Button */}
-      <button className="mt-2 bg-[#ea6c36] text-white px-4 py-1.5 rounded-full hover:bg-[#d25c2e] transition">
+      <button 
+      className="mt-2 bg-[#ea6c36] text-white px-4 py-1.5 rounded-full hover:bg-[#d25c2e] transition"
+      onClick={() => addToCart(product)}
+      >
         Add to Cart
       </button>
     </div>
