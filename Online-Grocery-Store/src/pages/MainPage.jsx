@@ -5,6 +5,8 @@ import { Route, Routes } from "react-router-dom";
 import CategoryDisplay from "../components/CategoryDisplay";
 import SearchedItemDisplay from "../components/SearchedItemDisplay";
 import CartPage from "./CartPage";
+import OrderFormPage from "./OrderFormPage";
+import OrderSuccessPage from "./OrderSuccessPage";
 
 const MainPage = () => {
   return (
@@ -15,6 +17,8 @@ const MainPage = () => {
         <Route path="/category/:category" element={<CategoryDisplay />} />
         <Route path="/search/:input" element={<SearchedItemDisplay />} />
         <Route path="/cart" element={<CartPage />} />
+        <Route path="/order" element={<OrderFormPage />} />
+        <Route path="/order-success" element={<OrderSuccessPage />} />
       </Routes>
     </>
   );
