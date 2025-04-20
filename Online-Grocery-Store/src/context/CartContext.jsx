@@ -17,6 +17,7 @@ export const CartProvider = ({ children }) => {
     setCartItems((prev) => {
       const exists = prev.find((item) => item.id === product.id);
       if (exists) {
+        if (exists.quantity >= product.stock) return prev;
         return prev.map((item) =>
           item.id === product.id
             ? { ...item, quantity: item.quantity + 1 }

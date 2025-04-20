@@ -3,10 +3,14 @@ import { FaSearch, FaShoppingCart } from "react-icons/fa";
 import DropdownMenu from "./DropdwonMenu";
 import { assets } from "../assets/assets";
 import { useNavigate } from "react-router-dom";
+import { useLocation } from "react-router-dom";
 
 const Topbar = () => {
   const [input, setInput] = useState("");
   const navigate = useNavigate();
+  const location = useLocation();
+  const hideSearch =
+    location.pathname.includes("/cart") || location.pathname.includes("/order");
 
   const handleSearch = (e) => {
     if (e.key === "Enter") {
@@ -32,8 +36,10 @@ const Topbar = () => {
         />
         <span className="text-xl font-bold text-[#ea6c36]">FreshCart</span>
       </div>
-      {/* Category Section */}
-      <nav className="flex space-x-6 text-gray-700 font-medium">
+
+      {!hideSearch && (
+        <>
+          <nav className="flex space-x-6 text-gray-700 font-medium">
         <DropdownMenu label="Meat & Seafood" items={["Meat", "Seafood"]} />
         <DropdownMenu
           label="Fruit & Vegetables"
@@ -65,6 +71,10 @@ const Topbar = () => {
           <FaShoppingCart className="text-[#ea6c36] w-6 h-6" />
         </div>
       </div>
+        </>
+      )}
+      {/* Category Section */}
+      
     </header>
   );
 };
